@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+h1
+{
+	font-family:"Bebas Neue","Helvetica Neue",Gotham, Helvetica, Arial, sans-serif;
+	font-size:36px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+#container
+{
+	height:500px;
+}
+
+#Mail
+{
+	float: left;
+	top: 0px;
+	padding-top: 10px;
+	margin-left:40px;
+	border: 2px double #1384A1;
+	background:url(../assets/about/formBG.jpg);
+	height:400px;
+}
+
+#container h2
+{
+	font-family: Rounded elegance;
+	font-size:24px;
+	margin: 10px;
+}
+
+p
+{
+	font-family: Roboto, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+form
+{
+	margin: 20px;
+}
+
+input
+{
+	
+	width: 500px;
+	height: 30px;
+	border: 0px solid #1384A1;
+	border-bottom:1px solid #1384A1;
+	background:url(../assets/about/formborder.jpg);
+	
+	border-radius: 1px;
+	-webkit-appearance: none;
+	font-size:16px;
+}
+
+textarea
+{
+	border: 1px solid #1384A1;
+	border-radius: 3px;
+	-webkit-appearance: none;
+	font-family: Roboto, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	opacity: 50%; 
+}
+
+input[type = submit]
+{
+	border-radius: 0px;
+	background:none;
+	background-color:#1384A1;
+	color:white;
+	width: 10%;
+	}
+	
+#Call
+{
+	float:left;
+	color:white;
+	background-color: #1384A1;
+	background:url(../assets/about/callBG.jpg);
+	width: 270px;
+	height:400px;
+	margin-left: 60px;
+	padding:10px;
+}
+
+#Call p
+{
+	font-size:18px;
+	margin-left: 20px;
+}
+
+#Address
+{
+	float:right;
+	color:white;
+	background-color: #1384A1;
+	background:url(../assets/about/addBG.jpg);
+	width: 290px;
+	height:400px;
+	margin-right: 40px;
+	padding:10px;
+}
+
+#Address p
+{
+	font-size:18px;
+	margin-left: 20px;
+}
+
+
+	

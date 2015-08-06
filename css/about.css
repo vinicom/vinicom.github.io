@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1
+{
+	font-family:"Bebas Neue","Helvetica Neue",Gotham, Helvetica, Arial, sans-serif;
+	font-size:36px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+section
+{
+	height:600px;
+}
+
+#navButton3
+{
+	background: #023F48;
+}
+
+#tagline
+{
+	
+	width: 30%;
+	text-align: center;
+	font-family: Rounded Elegance, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 24px;
+	color: #3E3E3E;
+	margin-top: 30px;
+	margin-left: 20px;
+	float: left
+}
+
+#tag
+{
+	position:relative;
+	z-index: 2;
+}
+
+#world
+{
+	position:relative;
+	z-index: 1;
+	margin-top:-150px;
+	margin-left: 60px;
+	width: 100%
+}
+
+.question
+{
+	width: 55%;
+	Height: 12%;
+	font-family: Rounded Elegance, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 20px;
+	cursor:pointer;
+	
+	margin-right: 30px;
+	color: white;
+	background-color: #1384A1;
+	border: none;
+	border-radius: 1px;
+	margin-bottom: 10px;
+	float: right;
+	/* Chrome, Safari */
+
+	-webkit-box-shadow: 5px 0px 15px #404141;
+	/* Firefox */
+
+	-moz-box-shadow: 5px 5px 15px #404141;
+	/* Standard syntax */
+
+	box-shadow: 5px 0px 15px #404141;
+}
+
+.question p
+{
+	padding-top: 25px;
+	margin-left: 20px;
+}
+
+
+.about
+{
+	display:none;
+	width: 55%;
+	font-family: Roboto, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 18px;
+	text-align: center;
+	margin-right: 30px;
+	;
+	border: none;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	float: right;
+	/* Chrome, Safari */
+
+	-webkit-box-shadow: 5px 0px 15px #404141;
+	/* Firefox */
+
+	-moz-box-shadow: 5px 5px 15px #404141;
+	/* Standard syntax */
+
+	box-shadow: 5px 0px 15px #404141;
+}
+
+.about p
+{
+	padding: 10px;
+}
+.accentText
+{
+	color:#1CC3ED;
+}
+
+
+

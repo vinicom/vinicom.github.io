@@ -6,20 +6,150 @@
 <meta name="author" content="Dk Saha">
 <meta name="copyright" content="EvilCodes 2015">
 <link rel="stylesheet" href="css/style.css">
+<link href="css/home.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" type="image/ico" href="assets/favicon.ico">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/Nav.js"></script>
+<script type="text/javascript" src="js/footer.js"></script>
+
+
+
+
 </head>
 
 <body>
+
 <div class="container">
 <header>
-<div class="Logo"><h1>ViniCom <span class="Byline">Superfast Fibre Broadband</span></h1></div>
-<nav>
-<ul id="MainNav">
-<li>Home</li>
-<li>Our Plans</li>
-<li>About Us</li>
-</ul>
-</nav>
+<div class="Logo"><a href="index.html" title="Home"><img src="assets/logo2.jpg" alt="Vinicom_logo"/></a></div>
+ <nav>
+ <div id="secondaryNav">
+<span onMouseOver="linkHover(1);" onMouseOut="linkMove(1);"><a href="contact.html" id="navLink1">Contact Us</a></span>
+<span onMouseOver="linkHover(2);" onMouseOut="linkMove(2);"><a href="FAQ.html" id="navLink2">FAQ</a></span>
+ <p>&nbsp;</p>
+ </div>
+ 
+    <ul id="MainNav">
+      <a href="index.html"><li id="navButton1" >home</li></a>
+     <a href="plans.html"><li id="navButton2" onMouseOver="buttonHover(2);" onMouseOut="buttonMove(2);">our plans</li></a>
+      <a href="about.html"><li id="navButton3" onMouseOver="buttonHover(3);" onMouseOut="buttonMove(3);">about us</li></a>
+    </ul>
+  </nav>
+
 </header>
+<section class="main">
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <!-- use jssor.slider.mini.js (40KB) instead for release -->
+    <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script type="text/javascript" src="js/home1.js" ></script>
+<div id="slider1_container">
+<!-- Loading Screen -->
+        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                background-color: #000; top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+            <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+                top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+        </div>
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1366px; height: 500px;
+            overflow: hidden;">
+            <div>
+                <img u="image" src="assets/Slideshow/0.jpg" />
+            </div>
+            <div>
+                <img u="image" src="assets/Slideshow/1.jpg" />
+            </div>
+            <div>
+                <img u="image" src="assets/Slideshow/2.jpg" />
+            </div>
+        </div>
+        <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
+
+
+ <!--#region Arrow Navigator Skin Begin -->
+       
+        <style>
+            /* jssor slider arrow navigator skin 13 css */
+            /*
+            .jssora13l                  (normal)
+            .jssora13r                  (normal)
+            .jssora13l:hover            (normal mouseover)
+            .jssora13r:hover            (normal mouseover)
+            .jssora13l.jssora13ldn      (mousedown)
+            .jssora13r.jssora13rdn      (mousedown)
+            */
+            .jssora13l, .jssora13r {
+                display: block;
+                position: absolute;
+				
+                /* size of arrow element */
+                width: 40px;
+                height: 50px;
+                cursor: pointer;
+                background: url(assets/Slideshow/a13.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora13l { background-position: -10px -35px; }
+            .jssora13r { background-position: -70px -35px; }
+            .jssora13l:hover { background-position: -130px -35px; }
+            .jssora13r:hover { background-position: -190px -35px; }
+            .jssora13l.jssora13ldn { background-position: -250px -35px; }
+            .jssora13r.jssora13rdn { background-position: -310px -35px; }
+        </style>
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora13l" style=" margin-top: 250px; top: 500px; left: 0px;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora13r" style="margin-top: 250px;top:500px; right: 0px; ">
+        </span>
+        <!--#endregion Arrow Navigator Skin End -->
+        <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
+        <!-- Trigger -->
+        <script>
+            init_jssor_slider1("slider1_container");
+        </script>
+    </div>
+    <!--#endregion Jssor Slider End -->
+</section>
+<footer>
+<div id="MainFooter">
+<div id="footnav">
+<h1>VINICOM BROADBAND</h1>
+
+<div class="footLinks">
+<h2>Our Plans</h2>
+<ul >
+<li>Home Plan</li>
+<li>Buisness Plan</li>
+<li>Corporate Plan</li>
+</ul>
+</div>
+<div class="footLinks">
+
+<ul id="SecLink">
+<li>Team Profile</li>
+<li>Site Map</li>
+</ul>
+</div>
+</div>
+<div id="Social">
+<p>Connect with Us!</p>
+<img id="facebook" src="assets/footer/facebook51.png" alt="facebook"/>
+<img id="twitter" src="assets/footer/twitter44.png" alt="facebook"/>
+<img id="google" src="assets/footer/google115.png" alt="facebook"/>
+</div>
+</div>
+<div id="SubFooter">
+<h3 id = "copyright">&copy;Evilcodes 2015-Till date | All Rights Reserved</h3>
+<p id="Kapish">POWERED BY <img class="kapish" src="assets/footer/KapishLogo.png" alt="Kapish Infinet"/>
+</p>
+</div>
+</footer>
 </div>
 </body>
 </html>

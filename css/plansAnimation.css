@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+@keyframes grow
+{
+	0%{
+		transform:scale(1);
+	}
+	100%{
+		transform:scale(1.1);
+	}
+}
+
+#HomePlans:hover
+{
+	animation: grow 2s;
+	transform:scale(1.1);
+}
+
+#BuisnessPlans:hover
+{
+	animation: grow 2s;
+	transform:scale(1.1);
+}
+
+#CorporatePlans:hover
+{
+	animation: grow 2s;
+	transform:scale(1.1);
+}
+

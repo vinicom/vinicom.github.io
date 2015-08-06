@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Our Plans</title>
+<meta name="author" content="Dk Saha">
+<meta name="copyright" content="EvilCodes 2015">
+
+<link href="vex/css/vex.css" rel="stylesheet" />
+<link href="vex/css/vexos.css" rel="stylesheet" />
+
+<link href="css/plans.css" rel="stylesheet" type="text/css">
+<link href="css/plansAnimation.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+
+<link rel="shortcut icon" type="image/ico" href="assets/favicon.ico">
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<script type="text/javascript" src="js/ripple.js"></script>
+<script type="text/javascript" src="js/Nav.js"></script>
+<script type="text/javascript" src="js/plan.js"></script>
+
+ <script src="vex/js/vex.js"></script>
+ <script src="vex/js/vex.dialog.js"></script>
+ 
+ <script type="text/javascript" src="js/footer.js"></script>
+ </head>
+
+<body>
+<div class="container">
+<header>
+<div class="Logo"><a href="index.html" title="Home"><img src="assets/logo2.jpg" alt="Vinicom_logo"/></a></div>
+ <nav>
+ <div id="secondaryNav">
+<span onMouseOver="linkHover(1);" onMouseOut="linkMove(1);"><a href="contact.html" id="navLink1">Contact Us</a></span>
+<span onMouseOver="linkHover(2);" onMouseOut="linkMove(2);"><a href="FAQ.html" id="navLink2">FAQ</a></span>
+ <p>&nbsp;</p>
+ </div>
+    <ul id="MainNav">
+      <a href="index.html"><li id="navButton1" onMouseOver="buttonHover(1);" onMouseOut="buttonMove(1);">home</li></a>
+      <a href="plans.html"><li id="navButton2" >our plans</li></a>
+      <a href="about.html"><li id="navButton3" onMouseOver="buttonHover(3);" onMouseOut="buttonMove(3);">about us</li></a>
+    </ul>
+  </nav>
+
+</header>
+<section>
+&nbsp;
+<h1>Our Plans</h1>
+<section id="Plans">
+<article id="HomePlans">
+<h2><b> Home <br> Broadband</b></h2>
+<img class= "HomePlanPic" src="assets/plans/HomePlanland.jpg">
+<p>Download movies, Listen to music or Browse your favourite Social Networking sites. All of this at blazing fast speeds.</p>
+<button class="ripple" onClick="activateDomesticDialog()">LEARN MORE</button>
+</article>
+<article id="BuisnessPlans">
+<h2> <b> Small Buisness <br>  Broadband </b></h2>
+<img class= "HomePlanPic" src="assets/plans/BuisnessPlanLand.png">
+<p>Unleash the perfect workplace partner. Unmatched speed and reliable connections for all your buisness needs.</p>
+<button class="ripple" onClick="activateBuisnessDialog()">LEARN MORE</button>
+</article>
+<article id="CorporatePlans">
+<h2> <b> Corporate <br>  Broadband </b></h2>
+<img class= "HomePlanPic" src="assets/plans/CorporatePlanland.jpg">
+<p>Now get more done. Better internet speed for better productivity.<br></p>
+<button class="ripple" onClick="activateCorporateDialog()">LEARN MORE</button>
+</article>
+</section>
+
+</section>
+<footer>
+<div id="MainFooter">
+<div id="footnav">
+<h1>VINICOM BROADBAND</h1>
+
+<div class="footLinks">
+<h3>Our Plans</h3>
+<ul >
+<li>Home Plan</li>
+<li>Buisness Plan</li>
+<li>Corporate Plan</li>
+</ul>
+</div>
+<div class="footLinks">
+
+<ul id="SecLink">
+<li>Team Profile</li>
+<li>Site Map</li>
+</ul>
+</div>
+</div>
+<div id="Social">
+<p>Connect with Us!</p>
+<img id="facebook" src="assets/footer/facebook51.png" alt="facebook"/>
+<img id="twitter" src="assets/footer/twitter44.png" alt="facebook"/>
+<img id="google" src="assets/footer/google115.png" alt="facebook"/>
+</div>
+</div>
+<div id="SubFooter">
+<h3 id = "copyright">&copy;Evilcodes 2015-Till date | All Rights Reserved</h3>
+<p id="Kapish">POWERED BY <img class="kapish" src="assets/footer/KapishLogo.png" alt="Kapish Infinet"/>
+</p>
+</div>
+</footer>
+</div>
+</body>
+</html>
