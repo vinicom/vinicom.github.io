@@ -12,3 +12,27 @@
 	margin-top: 20px;
 	margin-left: 10px;
 }
+
+
+.faq
+{
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	width: 50%
+}
+
+.faq li
+{
+	font-weight:700;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ans{
+	background-color:#9A9A9A;
+	border-radius:4px;
+	padding: 5px;
+	margin-top:10px;
+	margin-left:-15px;
+	margin-bottom:10px;
+}
